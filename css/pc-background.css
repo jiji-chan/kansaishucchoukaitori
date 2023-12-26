@@ -1,0 +1,101 @@
+/********************
+
+  スライスした画像を入れるCSS　
+  PC用の画像を入れる場所
+
+*********************/
+
+@charset "utf-8";
+@media screen and (min-width: 751px) {
+    .header {
+        background: url("../img/pc-header.webp") no-repeat top center;
+        height: 80px;
+    }
+    .fv {
+        background: url("../img/pc-fv.webp") no-repeat top center;
+        height: 602px;
+    }
+    
+    .section1 {
+        background: url("../img/pc-shiharai.webp") no-repeat top center;
+        height: 900px;
+    }
+    .section2 {
+        background: url("../img/pc-okomari.webp") no-repeat top center;
+        height: 671px;
+    }
+    .section3 {
+        background: url("../img/pc-kaiketsu.webp") no-repeat top center;
+        height: 1835px;
+    }
+
+    .section3-sp-dakara {
+        display: none;
+    }
+
+    
+   .section3-pc-dakara {
+        position: relative;
+        top: 2956px;
+        margin: 0 auto;
+    }
+
+    .section4 {
+        background: url("../img/pc4.png") no-repeat top center;
+        height: 1024px;
+    }
+
+    
+.section4 {
+    background: url("../img/pc-omakase.webp")no-repeat top center;
+    height: 1435px;
+}
+
+.section5 {
+    background: url("../img/pc-jisseki.webp")no-repeat top center;
+    height: 2000px;
+}
+.section6 {
+    background: url("../img/pc-kaitorihinmoku.webp")no-repeat top center;
+    height: 3281px;
+}
+.section7 {
+    background: url("../img/pc-eria.webp")no-repeat top center;
+    height: 1038px;
+}
+
+.section8 {
+    background: url("../img/pc-kuchikomi.webp")no-repeat top center;
+    height: 3781px;
+}
+
+.section9 {
+    background: url("../img/pc-nagare.webp")no-repeat top center;
+    height: 900px;
+}
+
+.section10 {
+    background: url("../img/pc-qa.webp")no-repeat top center;
+    height: 3550px;
+}
+
+.section11 {
+    background: url("../img/pc-oshirase.webp")no-repeat top center;
+    height: 1350px;
+}
+
+.section12 {
+    background: url("../img/pc-satei.webp")no-repeat top center;
+    height: 923px;
+}
+
+
+.section13 {
+    background: #fff;
+    height: 178px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 78px 0 78px 0;
+}
+}

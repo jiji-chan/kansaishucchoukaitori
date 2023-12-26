@@ -1,0 +1,100 @@
+/********************
+
+  スライスした画像を入れるCSS
+  スマホ用画像　
+
+*********************/
+
+.header {
+    background: url("../img/sp-header.png");
+    height: 120px;
+}
+
+.fv {
+    background: url("../img/sp-fv.jpg");
+    height: 1080px;
+}
+.container {
+    display: flex;
+    margin: 10px 0;
+    border: 1px solid;
+  }
+  
+
+.section1 {
+    background: url("../img/sp-shiharai.jpg");
+    height: 1050px;
+}
+
+.section2 {
+    background: url("../img/sp-okomari.jpg");
+    height: 860px;
+}
+
+.section3 {
+    position: relative;
+    background: url("../img/sp-kaiketsu.jpg");
+    height: 3001px;
+}
+
+.section3-sp-dakara {
+    position: relative;
+    top: 2956px;
+    margin: 0 auto;
+}
+.section3-pc-dakara {
+    display: none;
+}
+
+.section4 {
+    background: url("../img/sp-omakase.jpg");
+    height: 2101px;
+}
+
+.section5 {
+    background: url("../img/sp-jisseki.jpg");
+    height: 4200px;
+}
+.section6 {
+    background: url("../img/sp-kaitorihinmoku.jpg");
+    height: 5221px;
+}
+.section7 {
+    background: url("../img/sp-eria.jpg");
+    height: 2323px;
+}
+
+.section8 {
+    background: url("../img/sp-kuchikomi.jpg");
+    height: 5366px;
+}
+
+.section9 {
+    background: url("../img/sp-nagare.jpg");
+    height: 2049px;
+}
+
+.section10 {
+    background: url("../img/sp-qa.jpg");
+    height: 4100px;
+}
+
+.section11 {
+    background: url("../img/sp-oshirase.jpg");
+    height: 2200px;
+}
+
+.section12 {
+    background: url("../img/sp-satei.jpg");
+    height: 1100px;
+}
+
+
+.section13 {
+    background: #fff;
+    height: 178px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    padding: 78px 0 78px 0;
+}

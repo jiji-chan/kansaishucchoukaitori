@@ -1,0 +1,166 @@
+/********************
+
+  ctaエリアの設定を行うCSS　
+
+*********************/
+
+@charset "utf-8";
+
+/*ボタン拡大・縮小1*/
+
+
+/*sp用*/
+
+.cta-area1 {
+    display: flex;
+    position: relative;
+    background: url("../img/sp-toiawase.jpg");
+    height: 774px;
+}
+
+.btn-area1 {
+    position: relative;
+    display: block;
+    top: 520px;
+    /*ボタン位置の高さ*/
+    width: 320px;
+    /*エリアの範囲（ボタンのサイズ）*/
+    margin-left: 30px;
+    /*中央寄せ*/
+}
+
+.cta-area1 .btn-img {
+    position: relative;
+    width: 320px;
+    /*ボタンのサイズ*/
+    left: 0;
+    /*位置調整*/
+    filter: drop-shadow(3px 3px 5px #bbb);
+    /*ドロップシャドー*/
+}
+
+.cta-satei {
+    position: relative;
+    display: flex;
+    background: url("../img/sp-satei_cta.jpg");
+    height: 1162px;
+}
+
+
+.btn-satei {
+    position: relative;
+    display: block;
+    top: 910px;
+    margin-bottom: 910px;
+    /*ボタン位置の高さ*/
+    width: 320px;
+    /*エリアの範囲（ボタンのサイズ）*/
+    margin-left: 30px;
+    /*中央寄せ*/
+}
+
+.cta-area1 .btn-img {
+    position: relative;
+    width: 320px;
+    /*ボタンのサイズ*/
+    left: 0;
+    /*位置調整*/
+    filter: drop-shadow(3px 3px 5px #bbb);
+    /*ドロップシャドー*/
+}
+
+
+
+/*pc用*/
+
+@media screen and (min-width: 751px) {
+
+    .cta-area1 {
+        background: url("../img/pc-toiawase.webp")no-repeat top center;
+        height: 550px;
+    }
+    .btn-area1 {
+        top: 400px; /*ボタン位置の高さ*/
+        width: 380px; /*エリアの範囲（ボタンのサイズ）*/
+        margin: 0 auto;
+    }
+    .cta-area1 .btn-img {
+        width: 380px;
+        left: 0%;
+    }
+    
+    .btn-area1-web {
+        margin-left :150px;
+    }
+
+    .btn-area1-line {
+        margin-left :-150px;
+           }
+
+              .cta-area1 {
+        background: url("../img/pc-toiawase.webp")no-repeat top center;
+        height: 550px;
+    }
+    .btn-area1 {
+        top: 400px; /*ボタン位置の高さ*/
+        width: 380px; /*エリアの範囲（ボタンのサイズ）*/
+        margin: 0 auto;
+    }
+    .cta-area1 .btn-img {
+        width: 380px;
+        left: 0%;
+    }
+    
+    .btn-area1-web {
+        margin-left :150px;
+    }
+
+    .btn-area1-line {
+        margin-left :-150px;
+           }
+
+      .cta-area1 {
+        background: url("../img/pc-toiawase.webp")no-repeat top center;
+        height: 550px;
+    }
+    .btn-area1 {
+        top: 400px; /*ボタン位置の高さ*/
+        width: 380px; /*エリアの範囲（ボタンのサイズ）*/
+        margin: 0 auto;
+    }
+    .cta-area1 .btn-img {
+        width: 380px;
+        left: 0%;
+    }
+    
+    .btn-area1-web {
+        margin-left :150px;
+    }
+
+    .btn-area1-line {
+        margin-left :-150px;
+           }
+
+    /**/
+    .cta-satei {
+        background: url("../img/pc-toiawase.webp")no-repeat top center;
+        height: 550px;
+    }
+    .btn-satei {
+        top: 400px; /*ボタン位置の高さ*/
+        width: 380px; /*エリアの範囲（ボタンのサイズ）*/
+        margin: 0 auto;
+    }
+    .cta-satei .btn-img {
+        width: 380px;
+        left: 0%;
+    }
+    
+    .btn-satei-web {
+        margin-left :150px;
+    }
+
+    .btn-satei-line {
+        margin-left :-150px;
+           }
+}
